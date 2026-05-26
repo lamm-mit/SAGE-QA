@@ -45,6 +45,8 @@ Final answer
 
 Only the **Engineer** agent calls the retrieval tool. Planner, Critic, and Summarizer operate through natural-language reasoning over retrieved evidence and intermediate answers.
 
+<img width="1170" height="649" alt="image" src="https://github.com/user-attachments/assets/6dae6893-4c5e-4b3c-b36a-097fa72d3293" />
+
 ---
 
 ## Directory Layout
