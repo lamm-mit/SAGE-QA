@@ -1,0 +1,29 @@
+# Sync helper script
+sync_to_github.sh
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.sh
+
+# Optional runtime cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/

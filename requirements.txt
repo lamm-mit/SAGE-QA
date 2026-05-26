@@ -1,0 +1,73 @@
+# requirements.txt
+# Base packages only.
+# Install normally:
+#   uv pip install -r requirements.txt
+#
+# Do NOT install this file with --no-deps.
+
+# Core scientific stack
+numpy==1.26.4
+pandas==2.2.3
+python-dateutil==2.9.0.post0
+pytz==2025.2
+tzdata==2025.2
+packaging==25.0
+psutil==7.0.0
+
+# Basic utilities
+tqdm==4.67.1
+requests==2.32.5
+urllib3==2.5.0
+certifi==2025.10.5
+charset-normalizer==3.4.4
+idna==3.11
+pyyaml==6.0.3
+filelock==3.20.0
+typing-extensions==4.15.0
+regex==2025.11.3
+safetensors==0.7.0
+zstandard==0.25.0
+pyzmq==26.4.0
+
+# HF / training ecosystem
+transformers==4.57.3
+datasets==3.6.0
+pyarrow==17.0.0
+dill==0.3.8
+multiprocess==0.70.16
+xxhash==3.5.0
+fsspec==2025.3.0
+accelerate==1.12.0
+peft==0.18.0
+huggingface-hub==0.36.0
+tokenizers==0.22.1
+sentencepiece==0.1.99
+
+# API / agent stack
+openai==2.8.1
+tiktoken==0.12.0
+ag2==0.10.0
+
+# Graph-RAG / vector DB stack
+chromadb==1.1.1
+networkx==3.4.2
+python-louvain==0.16
+rapidfuzz==3.14.1
+
+# Image / document compatibility
+pillow==10.4.0
+
+# Optional; keep disabled unless actually needed
+# texify==0.1.10
+
+# Do NOT put these in this base requirements.txt:
+# torch
+# torchvision
+# torchaudio
+# triton
+# vllm
+# trl
+# xformers
+# flash-attn
+# lightgbm
+# together
