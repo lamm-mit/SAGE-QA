@@ -410,21 +410,6 @@ This repository implements the SAGE-QA workflow described in the manuscript:
 
 ---
 
-## Citation
-
-If you use this codebase, please cite:
-
-```bibtex
-@article{hsu2026sageqa,
-  title   = {SAGE-QA: Shared-Context Agentic Graph-Enhanced Question Answering for Scientific Reasoning in Semiconductor Manufacturing Technology},
-  author  = {Hsu, Yu-Chuan and Buehler, Markus J.},
-  year    = {2026},
-  note    = {Manuscript in preparation}
-}
-```
-
----
-
 ## License
 
 This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
@@ -434,3 +419,18 @@ This project is licensed under the Apache License, Version 2.0. See the [LICENSE
 ## Acknowledgment
 
 This project was developed for research on graph-grounded multi-agent scientific question answering in semiconductor manufacturing technology.
+
+---
+
+## Citation
+
+If you use this codebase, please cite:
+
+```bibtex
+@article{hsu2026sageqa,
+  title   = {SAGE-QA: Shared-Context Agentic Graph-Enhanced Question Answering for Scientific Reasoning in Semiconductor Manufacturing Technology},
+  author  = {Hsu, Yu-Chuan and Buehler, Markus J.},
+  year    = {2026},
+  note    = {Manuscript in submission}
+}
+```
